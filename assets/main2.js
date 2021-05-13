@@ -26,8 +26,8 @@ const squadre = [
 //generare numeri random al posto degli 0
 
 for (i=0; i<squadre.length; i++){
-    squadre[i].punti = Math.random()*50;
-    squadre[i].falli = Math.random()*50;
+    squadre[i].punti = Math.ceil(Math.random()*50);
+    squadre[i].falli = Math.ceil(Math.random()*50);
 }
 
 
